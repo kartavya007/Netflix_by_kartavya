@@ -1,14 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
-@media screen and (max-width:800px)
-{
-    .small
-    {
-        display: none;
-    }
-}
 body
 {
     background-color: black;
+    color: white;
 }
 .header
 {
@@ -88,4 +82,57 @@ td a
  background-color: transparent;
  border: 2px white solid;
  cursor: pointer;   
+}
+.mid_body
+{
+    display: flex;
+    padding: 10px;
+    place-content: center;
+    place-items: center;
+    align-items: center;
+}
+.card
+{
+    background-image: linear-gradient(to right bottom, #553288, #4c298d, #401f93, #2e1599, #08099f);
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+    width: 25vw;
+    height: 40vh;
+    overflow: hidden;
+    margin: 10px;
+    color: white;
+    font-family: 'Lilita One', cursive;
+    padding: 2vh 3vw 7vh 3vw;
+    font-size: 2vh;
+}
+.card_header
+{
+    display: grid;
+    place-content: right;
+    place-items: right;
+    align-items: center;
+}
+.FAQ
+{
+    padding: 10px;
+}
+@media screen and (max-width:800px)
+{
+    .small
+    {
+        display: none;
+    }
+    .card
+    {
+        width: 85%;
+        font-size: 3vh;
+    }
+    .mid_body
+    {
+        display: grid;
+        padding: 10px;
+        place-content: center;
+        place-items: center;
+        align-items: center;
+    }
 }
