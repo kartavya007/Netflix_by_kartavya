@@ -1,3 +1,1 @@
-function show(id) {
-    document.getElementById(id).style.display = "Block"
-}
+window.alert("This is not tha Orignal site of Netflix it is a clone made by me(Kartavya)");
